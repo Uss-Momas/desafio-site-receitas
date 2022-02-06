@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EAEAEA;
+    color: #39393A;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'poppins', sans-serif;
+    border: #1b1b1b 10px;
+    margin: 2rem 4rem;
+}
+section.title{
+    text-align: center;
+    padding-top: 2rem;
+    margin:0 2rem;
+}
+
+h2.ingredients, h2.modo-preparo, h2.more-info{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.receita{
+    background-color: #fff;
+}
+
+h1 {
+    color: #1b1b1b;
+    font-size: 28px;
+}
+
+h2 {
+    color: #1b1b1b;
+    font-size: 20px;
+}
+
+.lista, p.more-info-p{
+    line-height: 3rem;
+    list-style-position: inside;
+    margin-left: 2rem;
+}
+.lista, p{
+    font-size: 16px;
+}
+
+img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+figcaption{
+    text-align: right;
+}
+
+footer, figcaption{
+    color: #8f8f8f;
+    font-size: 12px;
+}
+
+footer{
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+}
+
+footer > p{
+    font-size: 12px;
+}
